@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sample1{
+                width:100px;
+                height:100px;
+                background:yellow;
+                transition: width 4s;
+                transition-timing-function:ease-in;
+            }   
+            .sample1:hover{
+                width:400px;
+            }
+            .sample2{
+                width:100px;
+                height:100px;
+                background:green;
+                transition: width 8s, height 8s;
+            }
+            .sample2:hover{
+                width:200px;
+                height:200px;
+                transition-timing-function: ease-out;
+            }
+                 </style>
+    </head>
+
+    <body>
+        <p>ease-in</p>
+        <div class="sample1"></div>
+            <p>ease-out</p>
+            <div class="sample2"></div>
+        
+    </body>
+</html>

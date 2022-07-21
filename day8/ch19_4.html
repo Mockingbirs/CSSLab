@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sample1{
+                width:100px;
+                height:100px;
+                background:yellow;
+
+                transition: width 2s, height 4s, transform 6s;
+    
+            }   
+            .sample1:hover{
+                width:200px;
+                height:200px;
+                transform:rotate(180deg);
+            }
+            .sample2{
+                width:100px;
+                height:100px;
+                background:green;
+                transition: width 2s, height 4s, transform 6s;
+            }
+            .sample2:hover{
+                width:200px;
+                height:200px;
+                transform:skewX(20deg);
+            }
+                 </style>
+    </head>
+
+    <body>
+        <p>transition과transform:rotate</p>
+        <div class="sample1"></div><br>
+            <p>transition과transform:skewX</p>
+            <div class="sample2"></div>
+        
+    </body>
+</html>

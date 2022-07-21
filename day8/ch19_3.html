@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sample1{
+                width:100px;
+                height:100px;
+                background:yellow;
+                transition: width 4s;
+                transition-timing-function: ease-in;
+                transition-delay:2s;
+            }   
+            .sample1:hover{
+                width:400px;
+            }
+            .sample2{
+                width:100px;
+                height:100px;
+                background:green;
+                transition: width 8s, height 8s;
+            }
+            .sample2:hover{
+                width:200px;
+                height:200px;
+                transition-timing-function: ease-out;
+            }
+                 </style>
+    </head>
+
+    <body>
+        <p>박스에 마우스를 올리세요</p>
+        <div class="sample1">2초 지연</div><br>
+            <p>ease-out</p>
+            <div class="sample2"></div>
+        
+    </body>
+</html>
